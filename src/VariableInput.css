@@ -1,0 +1,28 @@
+.variableInput {
+    padding-left: 8px;
+    height: 100%;
+    width: 50%;
+   border-left: 3px solid #fff;
+}
+
+.bmiTitle {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+}
+
+.bmiDisplay {
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+.amber {
+    color: rgb(255, 145, 0);
+}
+.green {
+    color: green;
+}
+.red {
+   color: red;
+   
+}
