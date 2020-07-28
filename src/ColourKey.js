@@ -6,19 +6,19 @@ const ColourKey = () => (
     <div className="key">
         <p>Key Chart</p>
         <span className="underWeight">
-            <div className="amber"></div>
+            <div className="purpleBlock"></div>
             <p>Underweight</p>
         </span>
         <span className="healthyWeight">
-            <div className="green"></div>
+            <div className="greenBlock"></div>
             <p>Healthy weight</p>
         </span>
         <span className="overWeight">
-            <div className="amber"></div>
+            <div className="amberBlock"></div>
             <p>Over weight</p>
         </span>
         <span className="obeseWeight">
-            <div className="red"></div>
+            <div className="redBlock"></div>
             <p>Obese</p>
         </span>
     </div>

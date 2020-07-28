@@ -5,20 +5,24 @@
     margin-left: 90%;
     margin-bottom: 10%;
 }
-
-.amber {
+.purpleBlock {
+    background-color: purple;
+    height: 10px;
+    width: 10px;
+}
+.amberBlock {
     background-color: rgb(255, 145, 0);
     height: 10px;
     width: 10px;
 }
 
-.green {
+.greenBlock {
     background-color: green;
     height: 10px;
     width: 10px;
 }
 
-.red {
+.redBlock {
     background-color: red;
     height: 10px;
     width: 10px;

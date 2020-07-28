@@ -5,7 +5,7 @@ class VariableInput extends React.Component {
     state = {
         height: "",
         weight: "",
-        BMI: ""
+        BMI: ".",
     }
     updateHeight = (e) => {
         this.setState({ height: e.target.value })
@@ -19,12 +19,12 @@ class VariableInput extends React.Component {
         let BMI = this.state.weight / heightInMetresSquared;
         this.setState({ BMI: BMI })
     }
-    addClass = () => {
-        if (this.state.BMI < 18.5) {
-            return "amber";
-        } else if (this.state.BMI > 18.5 && this.state.BMI < 24.9) {
-            return "green"
-        }
+    classList = (classes) => {
+        return Object
+            .entries(classes)
+            .filter(entry => entry[1])
+            .map(entry => entry[0])
+            .join(' ');
     }
     render() {
         return (
@@ -40,7 +40,14 @@ class VariableInput extends React.Component {
                     <input type="text" value={this.state.weight} onChange={this.updateWeight}></input>
                     <button type="submit" onClick={this.calculateBMI}>Calculate</button>
                 </form>
-                <div className={`bmiDisplay ${this.addClass}`}>Your BMI is: {this.state.BMI}</div>
+                <div className={this.classList({
+                    'bmiDisplay': true,
+                    'purple': this.state.BMI < 18.5,
+                    'green': this.state.BMI > 18.5 && this.state.BMI < 24.9,
+                    'amber': this.state.BMI > 24.9 && this.state.BMI < 29.9,
+                    'red': this.state.BMI > 29.9,
+                    'white': this.state.BMI == "."
+                })}>Your BMI is: {this.state.BMI}</div>
             </div>
         )
     }

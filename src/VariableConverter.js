@@ -62,8 +62,8 @@ class VariableConverter extends React.Component {
                     <input type="text" placeholder="Pounds" value={this.state.pounds} onChange={this.updatePounds}></input>
                     <button type="submit" onClick={this.weightConverter}>Calculate</button>
                     <div className="conversionDisplay">
-                        <p>Your height is {this.state.height}</p>
-                        <p>Your weight is {this.state.weight}</p>
+                        <p>Your height is {this.state.height}cm</p>
+                        <p>Your weight is {this.state.weight}kg</p>
                     </div>
                 </div>
 
