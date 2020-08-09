@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
 body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: #888;
-  font-family: 'Recursive', sans-serif;
-  color: #FFFFFF;
+  background-color: #553d67;
+  font-family: "Recursive", sans-serif;
+  color: #f64c72;
 }
 
 .App {
   height: 600px;
   width: 80%;
-  background-color: #363636;
+  background-color: #242582;
   margin: auto auto;
+  border-radius: 5%;
 }
 
 .mainBody {
@@ -46,8 +47,19 @@ input:focus {
 button {
   height: auto;
   width: auto;
-  background-color: #fff;
+  background-color: transparent;
   border: none;
   border-radius: 20%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f64c72;
+  cursor: pointer;
+}
 
+button:hover {
+  text-shadow: 2px 2px #888;
+}
+
+button:focus {
+  outline: none;
 }

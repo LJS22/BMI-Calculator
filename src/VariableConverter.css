@@ -1,17 +1,16 @@
 .variableConverter {
-    margin-left: 5px;
-    height: 100%;
-    width: 50%;
-   
+  margin-left: 5px;
+  height: 100%;
+  width: 50%;
 }
 
 .converterTitle {
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 10%;
+  text-align: center;
+  color: #f64c72;
+  margin-bottom: 10%;
 }
 
 .conversionDisplay {
-    margin-top: 50px;
-    font-size: 20px;
+  margin-top: 50px;
+  font-size: 20px;
 }

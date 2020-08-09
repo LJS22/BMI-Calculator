@@ -1,33 +1,33 @@
 .variableInput {
-    padding-left: 8px;
-    height: 100%;
-    width: 50%;
-   border-left: 3px solid #fff;
+  padding-left: 8px;
+  height: 100%;
+  width: 50%;
+  border-left: 3px solid #99738e;
 }
 
 .bmiTitle {
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 10%;
+  text-align: center;
+  color: #f64c72;
+  margin-bottom: 10%;
 }
 
 .bmiDisplay {
-    margin-top: 70px;
-    font-size: 28px;
+  margin-top: 70px;
+  font-size: 28px;
 }
 
 .purple {
-    color: purple;
+  color: purple;
 }
 .amber {
-    color: rgb(255, 145, 0);
+  color: rgb(255, 145, 0);
 }
 .green {
-    color: green;
+  color: green;
 }
 .red {
-   color: red;
+  color: red;
 }
-.white {
-    color: #fff;
+.pink {
+  color: #f64c72;
 }
